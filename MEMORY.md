@@ -1,6 +1,6 @@
 ---
 name: lyra-memory
-description: "Long-term memory LYRA. Auto-update tiap malam."
+description: "Long-term memory LYRA. Auto-update tiap malam jam 23:00."
 metadata: {"clawdbot":{"emoji":"🧠","requires":{},"install":[]}}
 ---
 
@@ -26,6 +26,7 @@ metadata: {"clawdbot":{"emoji":"🧠","requires":{},"install":[]}}
 [Hal yang perlu selalu diingat]
 
 ## Cron Syntax (OpenClaw 2026.2.25)
-- Flag: --cron (bukan --schedule), --message (bukan --prompt)
-- Selalu: --tz "Asia/Jakarta" --announce
+- Jadwal: --cron (BUKAN --schedule)
+- Perintah: --message (BUKAN --prompt)
+- Selalu tambah: --tz "Asia/Jakarta" --announce
 - Error? Jalankan: openclaw cron add --help
